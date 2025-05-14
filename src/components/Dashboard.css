@@ -1,0 +1,54 @@
+.dashboard-container {
+  background-color: #0d0d0d;
+  color: white;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.wallet-button {
+  background: #1f1f1f;
+  color: white;
+  border: 1px solid #444;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
